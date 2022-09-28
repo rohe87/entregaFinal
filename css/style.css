@@ -113,7 +113,8 @@ footer {
   color: #99a9b5;
   padding-top: 15px;
   color: #99a9b5;
-  padding-top: 15px; }
+  padding-top: 15px;
+  text-align: center; }
   #footer-navigation li a {
     color: #99a9b5;
     padding-top: 15px;
@@ -178,9 +179,9 @@ footer {
   padding-top: 15px; }
 
 #footer-socials {
-  text-align: right; }
+  text-align: center; }
   #footer-socials .socials {
-    text-align: right;
+    text-align: center;
     margin: 0 -7px;
     display: inline-block;
     vertical-align: middle; }
@@ -579,6 +580,9 @@ img {
   text-align: center;
   font-size: 30px;
   color: white; }
+
+ul {
+  list-style: none; }
 
 .vmv {
   width: 50px; }
