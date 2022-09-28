@@ -1,0 +1,12 @@
+
+.textt{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:lighter;
+    text-align: justify;
+    color: black;
+}
+.demasEstilos{
+    font-size: 80px;
+    @extend .textt;
+}
+
