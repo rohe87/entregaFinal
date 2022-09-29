@@ -1,4 +1,3 @@
-
 .card{
 	text-align: center;
 	margin: 20px;
@@ -14,4 +13,42 @@
 .card:hover{
 	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
 	transform: translateY(-3%);
+}
+.cardG{
+
+	align-items: center;
+}
+.titulo {
+	color: $color-h1tit;
+}
+.tituloContact {
+	color: $color-h1tit;
+	text-align: center;
+}
+img {
+	border-style: none;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+.cardIndex {
+	text-align: center;
+	background-color: $color-card;
+	margin:30px;
+	.card-bodyp{
+	 
+	 padding: 8px;
+	 border-color: red;
+	}
+}
+.card-titleUbi {
+	text-align: center;
+	font-size: 30px;
+	color: $color-card;
+}
+ul {
+    list-style: none;
+}
+.vmv {
+	width: 50px;
 }
